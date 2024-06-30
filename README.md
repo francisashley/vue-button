@@ -56,4 +56,3 @@ https://github.com/francisashley/vue-button/assets/12685308/c96d50b2-d681-42f3-a
   - Style is similar to hover state, midway between default and fully active
 - **disable**: Disables the button
 - **loading**: Displays a loading spinner
-
