@@ -1,6 +1,10 @@
 <div align="center">
   <em>Vue Button</em>
   <br/>
+
+https://github.com/francisashley/vue-button/assets/12685308/c96d50b2-d681-42f3-af3c-a406aac52b3f
+  
+  <br/>
   <a href="https://francisashley.github.io/vue-button">Documentation</a>
 </div>
 
