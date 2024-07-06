@@ -1,5 +1,5 @@
 import { ar as defineComponent, au as resolveComponent, av as openBlock, aw as createBlock, az as withCtx, aK as createTextVNode, aI as createVNode, aA as createBaseVNode } from "./vendor-10OaiqXE.js";
-import { _ as _export_sfc, U as UIButton } from "./UIIconButton-CcG8pECb.js";
+import { _ as _export_sfc, U as UIButton } from "./UIIconButton-ClxPKEJC.js";
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "2.link.story",
   setup(__props, { expose: __expose }) {

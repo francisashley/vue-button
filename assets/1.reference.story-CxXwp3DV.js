@@ -1,5 +1,5 @@
 import { ar as defineComponent, as as ref, at as computed, au as resolveComponent, av as openBlock, aw as createBlock, ax as xa, ay as le, az as withCtx, aA as createBaseVNode, aB as withDirectives, aC as vModelSelect, aD as vModelCheckbox, aE as createElementBlock, aF as renderList, aG as Fragment, aH as toDisplayString, aI as createVNode, aJ as createSlots, aK as createTextVNode } from "./vendor-10OaiqXE.js";
-import { _ as _export_sfc, U as UIButton, a as UIIconButton } from "./UIIconButton-CcG8pECb.js";
+import { _ as _export_sfc, U as UIButton, a as UIIconButton } from "./UIIconButton-ClxPKEJC.js";
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "1.reference.story",
   setup(__props, { expose: __expose }) {
@@ -10,7 +10,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const loading = ref(false);
     const icon = ref(false);
     const buttons = computed(() => {
-      return ["primary", "neutral", "danger", "success", "warning"].map((color) => ({
+      return ["primary", "neutral", "danger", "success", "warning", "light", "dark"].map((color) => ({
         color,
         variant,
         disable,

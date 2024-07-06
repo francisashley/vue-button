@@ -1,4 +1,4 @@
-const __vite__fileDeps=["assets/1.reference.story-Ba3L65jS.js","assets/vendor-10OaiqXE.js","assets/UIIconButton-CcG8pECb.js","assets/2.link.story-Z-2IYXpl.js","assets/HomeView.vue-iYuhAw_J.js","assets/story-DhEWy_yl.js","assets/StoryView.vue-njnabyRI.js","assets/MobileOverlay.vue2-CPAJAzH6.js","assets/BaseEmpty.vue-rLJpNV_m.js","assets/state-DPjeiHvR.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=["assets/1.reference.story-CxXwp3DV.js","assets/vendor-10OaiqXE.js","assets/UIIconButton-ClxPKEJC.js","assets/2.link.story-G-2RumaP.js","assets/HomeView.vue-C7JqKB4Q.js","assets/story-C4XtC-WL.js","assets/StoryView.vue-MH2v9APF.js","assets/MobileOverlay.vue2-CPAJAzH6.js","assets/BaseEmpty.vue-rLJpNV_m.js","assets/state-Bzr4hvos.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 import { Q as Comp2, R as defineAsyncComponent, S as createRouter, U as createWebHistory, V as createWebHashHistory, W as useDark, X as useToggle, k as watch, Y as markRaw, E as reactive, d as defineComponent, r as ref, Z as watchEffect, o as openBlock, q as createBlock, _ as mergeProps, $ as resolveDynamicComponent, h as createCommentVNode } from "./vendor-10OaiqXE.js";
 const scriptRel = "modulepreload";
 const assetsURL = function(dep) {
@@ -49,10 +49,10 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
     }
   });
 };
-const Comp0 = defineAsyncComponent(() => __vitePreload(() => import("./1.reference.story-Ba3L65jS.js"), true ? __vite__mapDeps([0,1,2]) : void 0));
-const Comp1 = defineAsyncComponent(() => __vitePreload(() => import("./2.link.story-Z-2IYXpl.js"), true ? __vite__mapDeps([3,1,2]) : void 0));
+const Comp0 = defineAsyncComponent(() => __vitePreload(() => import("./1.reference.story-CxXwp3DV.js"), true ? __vite__mapDeps([0,1,2]) : void 0));
+const Comp1 = defineAsyncComponent(() => __vitePreload(() => import("./2.link.story-G-2RumaP.js"), true ? __vite__mapDeps([3,1,2]) : void 0));
 let files = [
-  { "id": "src-stories-1-reference-story-vue", "path": ["1. Reference"], "filePath": "src/stories/1.reference.story.vue", "story": { "id": "src-stories-1-reference-story-vue", "title": "1. Reference", "layout": { "type": "single", "iframe": true }, "docsOnly": false, "variants": [{ "id": "_default", "title": "default" }], "autoPropsDisabled": true }, "supportPluginId": "vue3", "index": 0, component: Comp0, source: () => __vitePreload(() => import("./__resolved__virtual_story-source_src-stories-1-reference-story-vue-CHcW2Fnm.js"), true ? [] : void 0) },
+  { "id": "src-stories-1-reference-story-vue", "path": ["1. Reference"], "filePath": "src/stories/1.reference.story.vue", "story": { "id": "src-stories-1-reference-story-vue", "title": "1. Reference", "layout": { "type": "single", "iframe": true }, "docsOnly": false, "variants": [{ "id": "_default", "title": "default" }], "autoPropsDisabled": true }, "supportPluginId": "vue3", "index": 0, component: Comp0, source: () => __vitePreload(() => import("./__resolved__virtual_story-source_src-stories-1-reference-story-vue-DSdu0kaX.js"), true ? [] : void 0) },
   { "id": "src-stories-2-link-story-vue", "path": ["2. Link type"], "filePath": "src/stories/2.link.story.vue", "story": { "id": "src-stories-2-link-story-vue", "title": "2. Link type", "layout": { "type": "single", "iframe": true }, "docsOnly": false, "variants": [{ "id": "_default", "title": "default" }], "autoPropsDisabled": true }, "supportPluginId": "vue3", "index": 1, component: Comp1, source: () => __vitePreload(() => import("./__resolved__virtual_story-source_src-stories-2-link-story-vue-x6QmqgNd.js"), true ? [] : void 0) },
   { "id": "tailwind", "path": ["Tailwind"], "filePath": "/home/runner/work/vue-button/vue-button/node_modules/.histoire/plugins/builtin_tailwind-tokens/Tailwind.story.js", "story": { "id": "tailwind", "title": "Tailwind", "group": "design-system", "layout": { "type": "single", "iframe": false }, "icon": "mdi:tailwind", "docsOnly": false, "variants": [{ "id": "background-color", "title": "Background Color", "icon": "carbon:color-palette" }, { "id": "text-color", "title": "Text Color", "icon": "carbon:text-color" }, { "id": "border-color", "title": "Border Color", "icon": "carbon:color-palette" }, { "id": "padding", "title": "Padding", "icon": "carbon:area" }, { "id": "margin", "title": "Margin", "icon": "carbon:area" }, { "id": "font-size", "title": "Font Size", "icon": "carbon:text-font" }, { "id": "font-weight", "title": "Font Weight", "icon": "carbon:text-font" }, { "id": "font-family", "title": "Font Family", "icon": "carbon:text-font" }, { "id": "letter-spacing", "title": "Letter Spacing", "icon": "carbon:text-font" }, { "id": "line-height", "title": "Line Height", "icon": "carbon:text-font" }, { "id": "drop-shadow", "title": "Drop Shadow", "icon": "carbon:shape-except" }, { "id": "border-radius", "title": "Border Radius", "icon": "carbon:condition-wait-point" }, { "id": "border-width", "title": "Border Width", "icon": "carbon:checkbox" }, { "id": "width", "title": "Width", "icon": "carbon:pan-horizontal" }, { "id": "height", "title": "Height", "icon": "carbon:pan-vertical" }, { "id": "full-config", "title": "Full Config", "icon": "carbon:code" }], "autoPropsDisabled": true }, "supportPluginId": "vanilla", "index": 2, component: Comp2, source: () => __vitePreload(() => import("./__resolved__virtual_story-source_tailwind-CIRJOmUw.js"), true ? [] : void 0) }
 ];
@@ -77,12 +77,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => __vitePreload(() => import("./HomeView.vue-iYuhAw_J.js"), true ? __vite__mapDeps([4,5,1]) : void 0)
+      component: () => __vitePreload(() => import("./HomeView.vue-C7JqKB4Q.js"), true ? __vite__mapDeps([4,5,1]) : void 0)
     },
     {
       path: "/story/:storyId",
       name: "story",
-      component: () => __vitePreload(() => import("./StoryView.vue-njnabyRI.js"), true ? __vite__mapDeps([6,1,5,7,8,9]) : void 0)
+      component: () => __vitePreload(() => import("./StoryView.vue-MH2v9APF.js"), true ? __vite__mapDeps([6,1,5,7,8,9]) : void 0)
     }
   ]
 });
