@@ -23,7 +23,7 @@ const props = withDefaults(
     size?: '20' | '24' | '28' | '32' | '36' | '40' | '44'
     type?: 'button' | 'submit'
     variant?: 'solid' | 'soft' | 'outline' | 'ghost'
-    color?: 'primary' | 'neutral' | 'danger' | 'success' | 'warning'
+    color?: 'primary' | 'neutral' | 'danger' | 'success' | 'warning' | 'light' | 'dark'
     active?: boolean
     disable?: boolean
     loading?: boolean

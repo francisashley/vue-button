@@ -13,7 +13,7 @@ https://github.com/francisashley/vue-button/assets/12685308/c96d50b2-d681-42f3-a
 ## Features
 
 - Variants: Solid, Soft, Outline, Ghost
-- Colors: Primary, Neutral, Danger, Success, Warning
+- Colors: Primary, Neutral, Danger, Success, Warning, Light, Dark
 - Sizes: 20, 24, 28, 32, 36, 40, 44
 - Types: Button, Submit, Link (internal/external)
 - Icons: Supports icon and icon-only buttons
@@ -51,7 +51,7 @@ https://github.com/francisashley/vue-button/assets/12685308/c96d50b2-d681-42f3-a
 - **variant**: Button style variant
   - Options: `solid` | `soft` | `outline` | `ghost`
 - **color**: Button color
-  - Options: `primary` | `neutral` | `danger` | `success` | `warning`
+  - Options: `primary` | `neutral` | `danger` | `success` | `warning` | `light` | `dark`
 - **active**: Boolean indicating an active state, useful for dropdowns
   - Style is similar to hover state, midway between default and fully active
 - **disable**: Disables the button

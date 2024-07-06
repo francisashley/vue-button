@@ -273,7 +273,7 @@ const loading = ref<boolean>(false)
 const icon = ref<boolean>(false)
 
 const buttons = computed(() => {
-  return (['primary', 'neutral', 'danger', 'success', 'warning'] as const).map((color) => ({
+  return (['primary', 'neutral', 'danger', 'success', 'warning', 'light', 'dark'] as const).map((color) => ({
     color,
     variant,
     disable,

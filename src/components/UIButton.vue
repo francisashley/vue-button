@@ -27,7 +27,7 @@ const props = withDefaults(
     size?: '20' | '24' | '28' | '32' | '36' | '40' | '44'
     type?: 'button' | 'submit' | 'link'
     variant?: 'solid' | 'soft' | 'outline' | 'ghost'
-    color?: 'primary' | 'neutral' | 'danger' | 'success' | 'warning'
+    color?: 'primary' | 'neutral' | 'danger' | 'success' | 'warning' | 'light' | 'dark'
     active?: boolean
     disable?: boolean
     loading?: boolean
@@ -179,6 +179,42 @@ const classes = computed(() => {
       ghostHover: 'hover:tw-bg-orange-100',
       ghostPressed: 'active:tw-bg-orange-300',
       ghostActive: 'tw-bg-orange-200',
+    },
+    light: {
+      solid: 'tw-bg-neutral-100 tw-text-neutral-950',
+      solidHover: 'hover:tw-bg-neutral-300',
+      solidPressed: 'active:tw-bg-neutral-400',
+      solidActive: 'tw-bg-neutral-300',
+      soft: 'tw-bg-neutral-100 tw-text-neutral-800',
+      softHover: 'hover:tw-bg-neutral-200',
+      softPressed: 'active:tw-bg-neutral-300',
+      softActive: '!tw-bg-neutral-200',
+      outline: '!tw-border-neutral-100 tw-text-neutral-100 tw-ring-1 tw-ring-inset tw-ring-current',
+      outlineHover: 'hover:tw-bg-neutral-200 hover:tw-text-neutral-950 hover:tw-ring-neutral-200',
+      outlinePressed: 'active:tw-bg-neutral-300 active:tw-text-neutral-950 active:tw-ring-neutral-300',
+      outlineActive: 'tw-bg-neutral-200 tw-text-neutral-950 tw-ring-neutral-200',
+      ghost: 'tw-text-neutral-100',
+      ghostHover: 'hover:tw-bg-neutral-200 hover:tw-text-neutral-950',
+      ghostPressed: 'active:tw-bg-neutral-300 active:tw-text-neutral-950',
+      ghostActive: 'tw-bg-neutral-200 tw-text-neutral-950',
+    },
+    dark: {
+      solid: 'tw-bg-neutral-950 tw-text-neutral-100',
+      solidHover: 'hover:tw-bg-neutral-900',
+      solidPressed: 'active:tw-bg-neutral-800',
+      solidActive: '!tw-bg-neutral-900',
+      soft: 'tw-bg-neutral-950 tw-text-neutral-100',
+      softHover: 'hover:tw-bg-neutral-900',
+      softPressed: 'active:tw-bg-neutral-800',
+      softActive: '!tw-bg-neutral-900',
+      outline: '!tw-border-neutral-950 tw-text-neutral-950 tw-ring-1 tw-ring-inset tw-ring-current',
+      outlineHover: 'hover:tw-bg-neutral-900 hover:tw-text-neutral-100 hover:tw-ring-neutral-900',
+      outlinePressed: 'active:tw-bg-neutral-800 active:tw-text-neutral-100 active:tw-ring-neutral-800',
+      outlineActive: 'tw-bg-neutral-800 !tw-text-neutral-100 tw-ring-neutral-800',
+      ghost: 'tw-text-neutral-950',
+      ghostHover: 'hover:tw-bg-neutral-950 hover:tw-text-neutral-100',
+      ghostPressed: 'active:tw-bg-neutral-900 active:tw-text-neutral-100',
+      ghostActive: 'tw-bg-neutral-800 !tw-text-neutral-100',
     },
   }
 
